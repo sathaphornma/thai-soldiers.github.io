@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>จับทหาร</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css?family=Mitr" rel="stylesheet">
+
+    <!--main css-->
+    <link rel="stylesheet" href="./main.css"/>
+
+    <!--main js-->
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>เกมจำลองการเกณฑ์ทหาร</h1>
+    </div>
+    <div class="container">
+            <div class="row">
+                    <div class="col">
+                            <div id="card" class="card">
+                                <img class="img" id="img" src="" >
+
+                                <div class="container">
+                                    <p id="resname"></p>
+                                    <p id="pec"></p> 
+                                    <p id="res"></p> 
+                                    <button
+                                        id = "replay"
+                                        type="button"
+                                        class="btn-replay"
+                                        onclick="toReplay()">
+                                        เล่นอีกครั้ง
+                                    </button>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+              
+            <div class="row">
+                <div class="col">
+                    <div id ="home">
+                        <p>
+                            &nbsp;&nbsp;สวัสดีครับทุกคน ผมสายฟ้าจากช่อง
+                            <a 
+                                href="https://www.youtube.com/channel/UC7hNdIkauUODrQHBVerPlYw" 
+                                target="_blank">Qubit
+                            </a> 
+                            นะครับวันนี้กระแสการเกณฑ์ทหารมาแรงมากเลยทีเดียว 55 
+                            หลายคนอาจยังไม่ทันได้เกณฑ์หลายคนอาจเกินไปแล้ว (ผมเองก็เกณฑ์แล้วนะ อิอิ ) 
+                            วันนี้เลยคิดอะไรสนุกๆมาให้ทุกคนได้คลายเครีดกันกับเกมจำลองการเกณฑ์ทหาร มาสนุกกันเลย!!
+                        </p>
+                        <hr>
+                            
+                            <i>ชื่อเล่นของคุณคือ</i>
+                            <input type="text" id="name" value="Qubit">
+
+                            <button
+                                type="sumbit"
+                                class="btn-start"
+                                onclick="toRandom()">เริ่มเล่น
+                            </button>
+                
+                </div>
+                </div>
+            </div>
+    </div>
+    
+</body>
+
+</html>
